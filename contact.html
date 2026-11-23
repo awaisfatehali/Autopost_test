@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Raavi Chai House</title><meta name="description" content="Find Raavi Chai House or send us a message.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<header><div class="wrap"><a class="logo" href="index.html">Raavi Chai House</a>
+<button id="toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="about.html">About</a><a href="events.html">Events</a><a href="contact.html">Contact</a></nav></div></header>
+<main>
+<div class="page-title"><div class="wrap"><h1>Contact us</h1></div></div>
+<section><div class="wrap split"><div>
+<h2>Send a message</h2>
+<form id="contact-form" novalidate>
+<label>Name<input name="name" autocomplete="name"><span class="err" data-for="name"></span></label>
+<label>Email<input name="email" type="email" autocomplete="email"><span class="err" data-for="email"></span></label>
+<label>Reason<select name="reason"><option>Table reservation</option><option>Event booking</option><option>Feedback</option></select></label>
+<label>Message<textarea name="message" rows="5"></textarea><span class="err" data-for="message"></span></label>
+<button class="btn" type="submit">Send message</button></form>
+<div class="ok" id="sent" role="status"></div></div>
+<div><h2>Visit us</h2><p>14 Mall Road, Lahore<br>Open daily, 8 am to midnight<br>Phone: 0300-0000000<br>Email: hello@raavichai.example</p>
+<h3 style="margin-top:24px">Getting here</h3><p>Two minutes from the Mall Road bus stop. Free parking behind the building.</p></div></div></section>
+</main>
+<footer><div class="wrap"><div><b>Raavi Chai House</b><br>14 Mall Road, Lahore<br>Open daily, 8 am to midnight</div><div>0300-0000000<br>hello@raavichai.example<br>&copy; <span id="year"></span> Raavi Chai House</div></div></footer>
+<script src="js/main.js"></script></body></html>

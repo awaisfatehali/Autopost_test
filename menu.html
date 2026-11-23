@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Menu | Raavi Chai House</title><meta name="description" content="Chai, snacks, breakfast and desserts at Raavi Chai House.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<header><div class="wrap"><a class="logo" href="index.html">Raavi Chai House</a>
+<button id="toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="about.html">About</a><a href="events.html">Events</a><a href="contact.html">Contact</a></nav></div></header>
+<main>
+<div class="page-title"><div class="wrap"><h1>Menu</h1></div></div>
+<section><div class="wrap"><div class="filters" role="group" aria-label="Filter menu">
+<button class="on" data-cat="all">All</button><button data-cat="chai">Chai</button><button data-cat="food">Food</button><button data-cat="sweet">Sweets</button></div>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr))">
+<div class="item" data-cat="chai"><div><b>Kadak Chai</b><small>Strong doodh patti, cardamom</small></div><span class="price">Rs 150</span></div>
+<div class="item" data-cat="chai"><div><b>Kashmiri Pink Chai</b><small>Salted, creamy, topped with pistachio</small></div><span class="price">Rs 280</span></div>
+<div class="item" data-cat="chai"><div><b>Masala Chai</b><small>Ginger, clove and black pepper</small></div><span class="price">Rs 180</span></div>
+<div class="item" data-cat="food"><div><b>Paratha with Anda</b><small>Fried egg, achar, butter</small></div><span class="price">Rs 380</span></div>
+<div class="item" data-cat="food"><div><b>Chana Chaat</b><small>Chickpeas, yogurt, tamarind</small></div><span class="price">Rs 320</span></div>
+<div class="item" data-cat="food"><div><b>Chicken Samosa (3)</b><small>Crisp pastry, mint chutney</small></div><span class="price">Rs 240</span></div>
+<div class="item" data-cat="sweet"><div><b>Gajar Halwa</b><small>Slow-cooked carrot, khoya, almonds</small></div><span class="price">Rs 350</span></div>
+<div class="item" data-cat="sweet"><div><b>Kheer</b><small>Rice pudding with cardamom</small></div><span class="price">Rs 300</span></div>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div><b>Raavi Chai House</b><br>14 Mall Road, Lahore<br>Open daily, 8 am to midnight</div><div>0300-0000000<br>hello@raavichai.example<br>&copy; <span id="year"></span> Raavi Chai House</div></div></footer>
+<script src="js/main.js"></script></body></html>
